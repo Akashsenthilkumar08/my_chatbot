@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-background-full {
+    background-color: #030712;
+  }
+  .bg-background-secondary-default {
+    background-color: rgba(15, 23, 42, 0.85);
+  }
+  .bg-background-secondary-hover:hover {
+    background-color: rgba(30, 41, 59, 0.7);
+  }
+  .bg-background-tertiary-default {
+    background-color: rgba(30, 41, 59, 0.6);
+  }
+  .bg-background-tertiary-hover:hover {
+    background-color: rgba(51, 65, 85, 0.7);
+  }
+  .text-text-primary {
+    color: #f8fafc;
+  }
+  .text-text-secondary {
+    color: #94a3b8;
+  }
+  .text-text-tertiary {
+    color: #64748b;
+  }
+  .text-foreground-icon-secondary {
+    color: #94a3b8;
+  }
+  .border-border-button-white {
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+  .border-border-button-active {
+    border-color: #6366f1;
+  }
+  .ring-border-button-active {
+    --tw-ring-color: #6366f1;
+  }
+  .rounded-2lg {
+    border-radius: 0.75rem;
+  }
+  .text-body-medium {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+  }
+  .text-body-regular {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+  }
+  .shadow-nav-selected {
+    box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.35);
+  }
+  .shadow-sidebar {
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  }
+}
